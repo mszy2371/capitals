@@ -1,0 +1,57 @@
+<html>
+
+	<head>
+        <link rel="stylesheet" href="static/style.css" type="text/css"/>
+        <link rel="stylesheet" href="" type="text/css"/>
+        <meta http-equiv="content-language" content="pl"/>
+		<link rel="Stylesheet" href="static/fontello/css/fontello.css" type="text/css"/>
+        <meta name="keywords" content="stolice, europa, zwiedzanie, popularne miasta"/>
+        <meta name="description" content="Serwis prezentuje najpopularniejsze stolice Europy!"/>
+        <title>
+            {% block title %}
+            {% endblock title %}
+        </title>
+
+    </head>
+
+	<body>
+		<div id="container">
+
+			<div id="logo">
+				<a class="link" href="{{ url_for ('index') }}"><h1>- Stolice Europy -</h1></a>
+			</div>
+
+			<div id="nav">
+
+				<a class="link2" href="berlin.html"><div class="city">Berlin<br/></div></a>
+				<a class="link2" href="Bruksela.html"><div class="city">Bruksela<br/></div></a>
+				<a class="link2" href="Budapeszt.html"><div class="city">Budapeszt<br/></div></a>
+				<a class="link2" href="Londyn.html"><div class="city">Londyn<br/></div></a>
+				<a class="link2" href="Moskwa.html"><div class="city">Moskwa<br/></div></a>
+				<a class="link2" href="Paryz.html"><div class="city">Paryż<br/></div></a>
+				<a class="link2" href="Rzym.html"><div class="city">Rzym<br/></div></a>
+				<a class="link2" href="Sztokholm.html"><div class="city">Sztokholm<br/></div></a>
+				<a class="link2" href="Warszawa.html"><div class="city">Warszawa<br/></div></a>
+				<a class="link2" href="Wieden.html"><div class="city">Wiedeń<br/></div></a>
+
+			</div>
+            {% block content %}
+            {% endblock content %}
+
+						<div id="socials">
+				<div class="socialdivs">
+					<div class="facebook"><a href="https://www.facebook.com/thisiseuropa/"><i class="icon-facebook-squared"></i></a></div>
+					<div class="instagram"><a href="https://www.instagram.com/explore/tags/europa/?hl=pl"><i class="icon-instagram"></i></a></div>
+					<div class="twitter"><a href="https://twitter.com/hashtag/europa?lang=pl"><i class="icon-twitter"></i></a></div>
+			{% block socials %}
+			{% endblock socials %}
+					<div style="clear:both"></div>
+			</div>
+			</div>
+			<div id="footer">
+				Najpiękniejsze stolice Europy &copy; | Powered by Pete Starczewski
+			</div>
+		</div>
+	</body>
+
+</html>

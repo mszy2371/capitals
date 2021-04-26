@@ -1,0 +1,57 @@
+{
+  "berlin": {
+    "location": "https://www.google.com/maps/place/Berlin,+Niemcy/@52.5065116,13.1438675,10z/data=!3m1!4b1!4m5!3m4!1s0x47a84e373f035901:0x42120465b5e3b70!8m2!3d52.5200066!4d13.404954?hl=pl-PL",
+    "description": "Stolica Niemiec. Miasto, które niejednego urzekło połączeniem znanych zabytków z nowoczesną architekturą. Znane z Bramy Branderburskiej czy Reichstagu – siedziby niemieckiego parlamentu. Oferuje szeroką gamę muzeów, w tym znaną na całym świecie Wyspę Muzeów, na której bez wątpliwości znajdziesz to co cię interesuję. Wielkie kina i teatry zapewniają doskonałą rozrywkę na wieczory, a liczne sklepy z konkurencyjnymi cenami zachęcają do zakupów. Miasto oprócz rozrywek posiada świetne tradycyjne niemieckie potrawy, które trafią do gustu każdemu!",
+    "webpage": "https://www.berlin.de/en/"
+  },
+  "bruksela": {
+    "location": "https://www.google.com/maps/place/Bruksela,+Belgia/@50.854954,4.3051787,12z/data=!3m1!4b1!4m5!3m4!1s0x47c3a4ed73c76867:0xc18b3a66787302a7!8m2!3d50.8503396!4d4.3517103?hl=pl-PL",
+    "description": "Miasto wielu kultur, siedziba NATO to jedne z wielu domen uroczej stolicy Belgii.Zabytki można napotkać tu na każdym kroku. Wielki Pałac ze wspaniałym rynkiem, ratusz w stylu gotyckim, Atomium, można by tak długo wymieniać. Bruksela to jednak nie tylko zapierająca dech w piersiach architektura, ale także wyśmienita kuchnia. Legenda głosi, że nikomu nie udało się wyjechać z tego miasta bez uprzedniego spróbowania oryginalnych Belgijskich Frytek.Jeżeli się tam wybierasz nie zapomnij również o Brukselskich Mulach,\n     które z pewnością ci zasmakują!",
+    "webpage": "https://www.brussels.be/"
+  },
+  "budapeszt": {
+    "location": "https://www.google.com/maps/place/Budapeszt,+W%C4%99gry/@47.4811277,18.9898765,11z/data=!3m1!4b1!4m5!3m4!1s0x4741c334d1d4cfc9:0x400c4290c1e1160!8m2!3d47.497912!4d19.040235?hl=pl-PL",
+    "description": "Serce Węgier. Powszechnie znane na całym świecie zabytki takie jak Wzgórze Zamkowe, budynek parlamentu oraz Bazylika św. Stefana tworzą miasto o oryginalnym klimacie. Po efektywnym zwiedzaniu spróbuj specjałów lokalnej kuchni, a wieczorem koniecznie pójdź na spacer wzdłuż Promenady Naddunajskiej,w kierunku Placu Bohaterów. Kultury tego miasta nie da się stosownie ubrać w słowa. To trzeba po prostu poczuć! ",
+    "webpage": "http://budapest.hu/sites/english/Lapok/default.aspx"
+  },
+  "londyn": {
+    "location": "https://www.google.com/maps/place/Londyn,+Wielka+Brytania/@51.5285578,-0.2420245,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583?hl=pl-PL",
+    "description": "Metropolia usytuowana nad słynną Tamizą, stolica Wielkiej Brytanii. Nie trudno znaleźć tu kogoś z kim możesz porozmawiać po polsku. Znany z Big Bena, pałacu Buckingham czy gmachu Westminsteru, posiada niesamowity, artystyczny klimat. Różnorodne dzielnice, mnóstwo przytulnych kawiarani, wielkie muzea i bogate sklepy łączą się w całość tworząc wspaniałą atmosferę do zwiedzania jak i do odpoczynku. Wizyta w Londynie nie może się jednak obejść bez wypicia słynnej na całym świecie herbaty w brytyjskim ‘tea time’!",
+    "webpage": "https://www.london.gov.uk/"
+  },
+  "moskwa": {
+    "location": "https://www.google.com/maps/place/Moskwa,+Rosja/@55.5807418,36.8237556,9z/data=!3m1!4b1!4m5!3m4!1s0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c!8m2!3d55.755826!4d37.6172999?hl=pl-PL",
+    "description": "Największe miasto Europy, a także stolica największego państwa świata – Rosji. W Moskwie znajdziemy ogromną gamę różnorodnych atrakcji i rozrywek. Zwiedzanie najlepiej rozpocząć od Rosyjskiego Kremlu – siedziby władz kraju, a także Placu Czerwonego. Następnie Rosjanie zachęcają do spróbowania miejscowej kuchni. Pierogi z mięsem, bliny z kawiorem czy rosyjskie kiełbasy przypadną do gustu każdemu. Wieczorem rozrywkę zapewniają wspaniałe teatry, bogate galerie sztuki, i szerokie wystawy w muzeach. Moskwa jest wartym uwagi miastem, nie tylko ze względu na architekturę i kuchnię, ale także na inspirujący, artystyczny klimat!",
+    "webpage": "https://www.mos.ru/en/"
+  },
+  "paryż": {
+    "location": "https://www.google.com/maps/place/Pary%C5%BC,+Francja/@48.8588376,2.2768486,12z/data=!3m1!4b1!4m5!3m4!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219?hl=pl-PL",
+    "description": "Wieża Eiffla, klimatyczne uliczki, urocze skwery – z tym najczęściej kojarzy nam się Paryż. Miasto Zakochanych jest niezwykłym miejscem, które dzięki swojej wspaniałej architekturze sprawia, że czujemy się jak w domu. Może poszczycić się takimi miejscami jak Pola Elizejskie, Luwr, Łuk Triumfalny czy Katedra Notre-Dame. Będąc w Paryżu warto spróbować przysmaków lokalnej kuchni – żabich udek, ślimaków i różnych rodzajów makaroników, które z pewnością zasmakują każdemu. Paryż to miasto o artystycznej duszy, które natchnęło niejednego pisarza czy poetę.",
+    "webpage": "https://www.france.fr/en/paris"
+  },
+  "rzym": {
+    "location": "https://www.google.com/maps/place/Rzym,+W%C5%82ochy/@41.9099856,12.3955706,11z/data=!3m1!4b1!4m5!3m4!1s0x132f6196f9928ebb:0xb90f770693656e38!8m2!3d41.9027835!4d12.4963655?hl=pl-PL",
+    "description": "Słoneczna stolica Włoch. Wieczne Miasto jest wyjątkowe i jedyne w swoim rodzaju, za sprawą bogatej i różnorodnej architektury. Możemy tam znaleźć wiele wspaniałych zabytków z epoki renesansu, baroku, gotyku, a nawet starożytności. Będąc w Rzymie warto zwiedzić zabytki takie jak Koloseum, Bazylika św. Jana, Campo de Fiori czy Bazylika Santa Maria Maggiore. Ponadto warto również spróbować wyśmienitych włoskich makaronów, pizzy i Via Falvia. Rzym to miasto, którego nie można pominąć na trasie wycieczki po Europie, częściowo dlatego, że jak wszyscy wiemy wszystkie\n drogi prowadzą do Rzymu!",
+    "webpage": "https://www.rome.info/"
+  },
+  "sztokholm": {
+    "location": "https://www.google.com/maps/place/Sztokholm,+Szwecja/@59.3260664,17.841628,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808?hl=pl-PL",
+    "description": "Znana na całym świecie, piękna stolica Szwecji. Urocze, otoczone wodą miasto jest prawdziwą gratką dla miłośników zwiedzania. Będąc w Sztokholmie warto zobaczyć okazały ratusz, rozległe stare miasto czy ogromny Vinterviken. Miasto oferuje także duży wybór muzeów, w których każdy znajdzie coś dla siebie. Wielka Stajnia, Muzeum Średniowiecznego Sztokholmu czy Muzeum Nagrody Nobla zachęcają do zwiedzania swoimi różnorodnymi, bogatymi wystawami. Skandynawska stolica oferuje również duży wybór sklepów i centów handlowych stworzonych z myślą o miłośnikach zakupów. Sztokholm jest jednym z miast o oryginalnej architekturze, ponieważ jest zbudowany z wielu wysp.",
+    "webpage": "https://international.stockholm.se"
+  },
+  "warszawa": {
+    "location": "https://www.google.com/maps/place/Warszawa/@52.2328546,20.9207684,11z/data=!3m1!4b1!4m5!3m4!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287?hl=pl-PL",
+    "description": "Największe miasto, a zarazem stolica Polski. Słynna na całym świecie dzięki niezłomności i odwadze jej mieszkańców podczas wojny.  Miasto, które płynnie łączy zabytki z nowoczesną architekturą. Zwiedzając Warszawę warto zobaczyć Pałac Królewski, w którym znajdują się  dzieła najwybitniejszych artystów, Muzeum Powstania Warszawskiego, a także Pałac Kultury i Nauki – ikonę miasta. W przerwie dobrym pomysłem jest przechadzka po Parku Łazienkowskim, który z pewnością zachwyci każdego. Wieczorem Warszawa oferuje wiele seansów kinowych, spektaklów teatralnych i koncertów. Stolicę Polski również można zaliczyć do miast, które trzeba odwiedzić podczas wycieczki po Europie.",
+    "webpage": "https://www.um.warszawa.pl/"
+  },
+  "wiedeń": {
+    "location": "https://www.google.com/maps/place/Wiede%C5%84,+Austria/@48.2205994,16.2396336,11z/data=!3m1!4b1!4m5!3m4!1s0x476d079e5136ca9f:0xfdc2e58a51a25b46!8m2!3d48.2081743!4d16.3738189?hl=pl-PL",
+    "description": "Położone nad Dunajem, największe miasto, a zarazem stolica Austrii. Miasto wyjątkowe pod każdym względem. Posiada unikalny charakter, który przeniesie cię do miasta z przełomu XIX i XX wieku. Dzieje się tak dzięki temu, że Wiedeń nie zmienił się od kilkudziesięciu lat, ponieważ w całości jest wpisany na listę Światowego Dziedzictwa UNESCO. Austriacka stolica jest świetna nie tylko do zwiedzania lecz także do wypoczynku. Po udanym odkryciu znanej architektury, jak wielka katedra św. Szczepana, przepiękny Belweder czy Brama Szwajcarska, zachęca do udania się do parku rozrywki bądź delektowania się pysznym lokalnym jedzeniem w parku Schönbrunn. Wiedeń jest miastem, które koniecznie trzeba zobaczyć na własne oczy!",
+    "webpage": "https://www.wien.gv.at/english/"
+  },
+  "europa": {
+    "location": "https://www.google.com/maps/place/Europe/@48.0937121,4.1156545,4z/data=!3m1!4b1!4m5!3m4!1s0x46ed8886cfadda85:0x72ef99e6b3fcf079!8m2!3d54.5259614!4d15.2551187",
+    "description": "Europę bezprecedensowo można uznać za najbardziej rozwinięty kontynent świata. Położone w tym regionie państwa bez cienia wątpliwości można zaliczyć do najbardziej znaczących na arenie międzynarodowej. Europa to także wiele kultur, tradycji, wiele ludzkich serc, które tworzą miasta znane w każdym zakątku świata. Poeci, malarze, politycy, ale także zwykli ludzie pozostawili tam wiele śladów, które do dziś doceniane są na tle kultury jak i codziennego życia. Już dziś zanurz się z nami we wspaniałej kulturze i klimacie pięknych stolic całej Europy. Obejrzyj z nami Paryską Wieżę Eifll’a, Berlińską Bramę Branderburską, Londyńskiego Big Bena, a także wiele innych.\nZapraszamy!",
+    "webpage": "https://europa.eu/european-union/index_pl"
+  }
+}
