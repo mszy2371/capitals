@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="" type="text/css"/>
         <meta http-equiv="content-language" content="pl"/>
 		<link rel="Stylesheet" href="static/fontello/css/fontello.css" type="text/css"/>
+		<link rel="icon" href="data:,">
         <meta name="keywords" content="stolice, europa, zwiedzanie, popularne miasta"/>
         <meta name="description" content="Serwis prezentuje najpopularniejsze stolice Europy!"/>
         <title>
@@ -22,17 +23,9 @@
 			</div>
 
 			<div id="nav">
-
-				<a class="link2" href="berlin.html"><div class="city">Berlin<br/></div></a>
-				<a class="link2" href="Bruksela.html"><div class="city">Bruksela<br/></div></a>
-				<a class="link2" href="Budapeszt.html"><div class="city">Budapeszt<br/></div></a>
-				<a class="link2" href="Londyn.html"><div class="city">Londyn<br/></div></a>
-				<a class="link2" href="Moskwa.html"><div class="city">Moskwa<br/></div></a>
-				<a class="link2" href="Paryz.html"><div class="city">Paryż<br/></div></a>
-				<a class="link2" href="Rzym.html"><div class="city">Rzym<br/></div></a>
-				<a class="link2" href="Sztokholm.html"><div class="city">Sztokholm<br/></div></a>
-				<a class="link2" href="Warszawa.html"><div class="city">Warszawa<br/></div></a>
-				<a class="link2" href="Wieden.html"><div class="city">Wiedeń<br/></div></a>
+				{% for place in places[1:] %}
+					<a class="link2" href="{{ url_for ('index', city=place) }}"><div class="city">{{ place.capitalize() }}<br/></div></a>
+				{% endfor %}
 
 			</div>
             {% block content %}

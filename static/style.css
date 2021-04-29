@@ -43,6 +43,12 @@ body
 			padding: 10px;
 			margin-right: 10px;
 		}
+
+		#city-title
+		{
+		font-size: 40px;
+		display: inline-block;
+		}
 		
 			.city
 			{
@@ -58,7 +64,18 @@ body
 				background-color: #996949;
 				cursor: pointer;
 			}
-		
+		#weather
+		{
+		font-size: 14px;
+		width: 180px;
+		display: inline-block;
+		}
+
+		#icon
+		{
+		display:inline-block;
+		}
+
 		#content
 		
 		{
