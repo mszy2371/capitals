@@ -1,14 +1,11 @@
 import json
 import requests
-
 from flask import Flask, render_template
-import wikipedia
 
 
 app = Flask(__name__)
 app.static_folder = 'static'
 
-wikipedia.set_lang('pl')
 
 places = ['europa', 'berlin', 'bruksela', 'budapeszt', 'londyn', 'moskwa', 'paryż', 'rzym', 'sztokholm', 'warszawa', 'wiedeń']
 translation = {'europa': 'europe', 'berlin': 'berlin', 'bruksela': 'brussels', 'budapeszt': 'budapest', 'londyn': 'london', 'moskwa': 'moscov',
@@ -26,8 +23,11 @@ def index(city='europa'):
     url = f'https://api.weatherapi.com/v1/current.json?key={api_key}&q={translation.get(city, {})}&aqi=no&lang=pl'
     response = requests.request('GET', url)
     resp = response.json()
-    weather = (' (czas lokalny): ', resp.get('location', {}).get('localtime', {}), 'temp: ' ,
-               resp.get('current', {}).get('temp_c', {}),'odczuwalna: ',  resp.get('current', {}).get('feelslike_c', {}), resp.get('current', {}).get('condition', {}).get('text', {}))
+    w_description = resp.get('current', {}).get('condition', {}).get('text', {})
+    temperature = resp.get('current', {}).get('temp_c', {})
+    feelslike =  resp.get('current', {}).get('feelslike_c', {})
+    check_time = resp.get('location', {}).get('localtime', {})
+    weather = (w_description, temperature, feelslike, check_time)
     icon = resp.get('current', {}).get('condition', {}).get('icon', {})
     picture = f'static/{city}.jpg'
     if city in places:

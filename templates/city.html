@@ -9,13 +9,11 @@
 				{% if city in places[1:] %}
 					<div id="icon"><img src="{{ icon }}"></div>
 					<div id="weather">
-						Aktualna pogoda w {{ polish_pron[city].capitalize() }}:
-						{{ weather[0] }} {{ weather[1] }}
-						{{ weather[2] }}
-						{{ weather[3] }}
-						{{ weather[4] }}
-						{{ weather[5] }}
-						{{ weather[6] }}
+						<b>Aktualna pogoda w {{ polish_pron[city].capitalize() }}:</b><br>
+						{{ weather[0] }}<br>
+						temp. powietrza: {{ weather[1] }}<br>
+						odczuwalna: {{ weather[2] }}<br>
+						sprawdzone:{{ weather[3] }} (czas miejscowy)<br>
 					</div>
 				{% endif %}
 				<img id="mapa" src="{{ picture }}">

@@ -46,8 +46,9 @@ body
 
 		#city-title
 		{
-		font-size: 40px;
+		font-size: 38px;
 		display: inline-block;
+		vertical-align: top;
 		}
 		
 			.city
@@ -67,8 +68,9 @@ body
 		#weather
 		{
 		font-size: 14px;
-		width: 180px;
+		width: 199px;
 		display: inline-block;
+		text-align: left;
 		}
 
 		#icon
